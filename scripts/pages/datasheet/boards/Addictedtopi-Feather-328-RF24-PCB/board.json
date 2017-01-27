@@ -1,0 +1,208 @@
+{
+  "site":"Addicted to Pi",
+  "name":"328 RF24",
+  "type":"Feather",
+  "info":[
+      [
+        "Chipset",
+        "ATMEGA328P"
+      ],
+      [
+        "Operating Voltage",
+        "3.3V"
+      ],
+      [
+        "VDD Range",
+        "1.8 to 5.5 V"
+      ],
+      [
+        "Flash",
+        "32 KB"
+      ],
+      [
+        "RAM",
+        "2 KB"
+      ],
+      [
+        "EEPROM",
+        "1 KB"
+      ],
+      [
+        "GPIO Voltage",
+        "All 5V tolerant"
+      ],
+      [
+        "LED1",
+        "Pin 4"
+      ],
+      [
+        "Battery Monitor",
+        "Pin A7"
+      ]
+
+  ],
+  "shape": {
+    "elements": [{
+      "name":"outline",
+      "type": "path",
+      "d":[{"x":280,"y":0},{"x":280,"y":0},
+        {"x":490,"y":0},{"x":490,"y":0},
+        {"x":511,"y":9},
+        {"x":520,"y":30},{"x":520,"y":30},
+        {"x":520,"y":570},{"x":520,"y":570},
+        {"x":511,"y":591},
+        {"x":490,"y":600},{"x":490,"y":600},
+        {"x":280,"y":600},{"x":280,"y":600},
+        {"x":259,"y":591},
+        {"x":250,"y":570},{"x":250,"y":570},
+        {"x":250,"y":30},{"x":250,"y":30},
+        {"x":259,"y":9}
+      ],
+      "fill":"#DD0000",
+      "stroke":"black",
+      "stroke-width":0,
+      "interpolate":"basis-closed"
+      },
+      {
+        "name":"top-left-hole",
+        "type": "circle",
+        "cx": 280,
+        "cy": 30,
+        "r": 15,
+        "fill": "#ffffff"
+      },
+
+      {
+        "name":"top-right-hole",
+        "type": "circle",
+        "cx": 490,
+        "cy": 30,
+        "r": 15,
+        "fill": "#ffffff"
+      },
+      {
+        "name":"bottom-right-hole",
+        "type": "circle",
+        "cx": 490,
+        "cy": 570,
+        "r": 15,
+        "fill": "#ffffff"
+      },
+      {
+        "name":"bottom-left-hole",
+        "type": "circle",
+        "cx": 280,
+        "cy": 570,
+        "r": 15,
+        "fill": "#ffffff"
+      },
+      {
+        "name":"left-header",
+        "type":"rect",
+        "x":250,
+        "y":60,
+        "width":30,
+        "height":480,
+        "fill":"#222"
+      },
+      {
+        "name":"right-header",
+        "type":"rect",
+        "x":490,
+        "y":180,
+        "width":30,
+        "height":360,
+        "fill":"#222"
+      },
+      {
+        "name":"bat-port",
+        "type":"rect",
+        "x":435,
+        "y":75,
+        "width":80,
+        "height":100,
+        "fill":"#eee"
+      },
+      {
+        "name":"usb-port",
+        "type":"rect",
+        "x":340,
+        "y":0,
+        "width":90,
+        "height":60,
+        "fill":"#bbb"
+      },
+      {
+        "name":"radio-header",
+        "type":"rect",
+        "x":340,
+        "y":240,
+        "width":120,
+        "height":60,
+        "fill":"#222"
+      },
+      {
+        "name":"mcu",
+        "type":"rect",
+        "x":340,
+        "y":365,
+        "width":90,
+        "height":90,
+        "fill":"#666"
+      },
+      {
+        "name":"vreg",
+        "type":"rect",
+        "x":285,
+        "y":205,
+        "width":50,
+        "height":50,
+        "fill":"#666"
+      }
+    ]
+  },
+  "pins": [
+      {"x":265,"y":75.0,"angle":0,"side":"left","labels":[{"value":"RST","type":"Pin"}]},
+      {"x":265,"y":105.0,"angle":0,"side":"left","labels":[{"value":"3V3","type":"Pin"}]},
+      {"x":265,"y":135.0,"angle":0,"side":"left","labels":[{"value":"Ref","type":"Pin"}]},
+      {"x":265,"y":165.0,"angle":0,"side":"left","labels":[{"value":"GND","type":"Pin"}]},
+      {"x":265,"y":195.0,"angle":0,"side":"left","labels":[{"value":"A0","type":"Pin"},{"value":"PC0","type":"Pin"},{"value":"ADC","type":"ADC"}]},
+      {"x":265,"y":225.0,"angle":0,"side":"left","labels":[{"value":"A1","type":"Pin"},{"value":"PC1","type":"Pin"},{"value":"ADC","type":"ADC"}]},
+      {"x":265,"y":255.0,"angle":0,"side":"left","labels":[{"value":"A2","type":"Pin"},{"value":"PC2","type":"Pin"},{"value":"ADC","type":"ADC"}]},
+      {"x":265,"y":285.0,"angle":0,"side":"left","labels":[{"value":"A3","type":"Pin"},{"value":"PC3","type":"Pin"},{"value":"ADC","type":"ADC"}]},
+      {"x":265,"y":315.0,"angle":0,"side":"left","labels":[{"value":"A6","type":"Pin"},{"value":"ADC","type":"ADC"}]},
+      {"x":265,"y":345.0,"angle":0,"side":"left","labels":[{"value":"A7","type":"Pin"},{"value":"ADC","type":"ADC"}]},
+      {"x":265,"y":375.0,"angle":0,"side":"left","labels":[{"value":"13","type":"Pin"},{"value":"PB5","type":"Pin"},{"value":"SPI1 SCK","type":"SPI"},{"value":"PWM","type":"PWM"}]},
+      {"x":265,"y":405.0,"angle":0,"side":"left","labels":[{"value":"11","type":"Pin"},{"value":"PB3","type":"Pin"},{"value":"SPI1 MOSI","type":"SPI"},{"value":"PWM","type":"PWM"}]},
+      {"x":265,"y":435.0,"angle":0,"side":"left","labels":[{"value":"12","type":"Pin"},{"value":"PB4","type":"Pin"},{"value":"SPI1 MISO","type":"SPI"},{"value":"PWM","type":"PWM"}]},
+      {"x":265,"y":465.0,"angle":0,"side":"left","labels":[{"value":"0","type":"Pin"},{"value":"PD0","type":"Pin"},{"value":"USART1 RX","type":"Serial"}]},
+      {"x":265,"y":495.0,"angle":0,"side":"left","labels":[{"value":"1","type":"Pin"},{"value":"PD1","type":"Pin"},{"value":"USART1 TX","type":"Serial"}]},
+      {"x":265,"y":525.0,"angle":0,"side":"left","labels":[{"value":"7","type":"Pin"},{"value":"PD7","type":"Pin"}]},
+      {"x":505,"y":195.0,"angle":0,"side":"right","labels":[{"value":"BAT","type":"Pin"}]},
+      {"x":505,"y":225.0,"angle":0,"side":"right","labels":[{"value":"En","type":"Pin"}]},
+      {"x":505,"y":255.0,"angle":0,"side":"right","labels":[{"value":"VBUS","type":"Pin"}]},
+      {"x":505,"y":285.0,"angle":0,"side":"right","labels":[{"value":"4","type":"Pin"},{"value":"PD4","type":"Pin"}]},
+      {"x":505,"y":315.0,"angle":0,"side":"right","labels":[{"value":"3","type":"Pin"},{"value":"PD3","type":"Pin"},{"value":"PWM","type":"PWM"},{"value":"INT1","type":"INT"}]},
+      {"x":505,"y":345.0,"angle":0,"side":"right","labels":[{"value":"8","type":"Pin"},{"value":"PB0","type":"Pin"}]},
+      {"x":505,"y":375.0,"angle":0,"side":"right","labels":[{"value":"10","type":"Pin"},{"value":"PB2","type":"Pin"}]},
+      {"x":505,"y":405.0,"angle":0,"side":"right","labels":[{"value":"9","type":"Pin"},{"value":"PB1","type":"Pin"}]},
+      {"x":505,"y":435.0,"angle":0,"side":"right","labels":[{"value":"6","type":"Pin"},{"value":"PD6","type":"Pin"},{"value":"PWM","type":"PWM"}]},
+      {"x":505,"y":465.0,"angle":0,"side":"right","labels":[{"value":"5","type":"Pin"},{"value":"PD5","type":"Pin"},{"value":"PWM","type":"PWM"}]},
+      {"x":505,"y":495.0,"angle":0,"side":"right","labels":[{"value":"A5","type":"Pin"},{"value":"PC5","type":"Pin"},{"value":"I2C1 SCL","type":"I2C"},{"value":"ADC","type":"ADC"}]},
+      {"x":505,"y":525.0,"angle":0,"side":"right","labels":[{"value":"A4","type":"Pin"},{"value":"PC4","type":"Pin"},{"value":"I2C1 SDA","type":"I2C"},{"value":"ADC","type":"ADC"}]},
+      {"x":505,"y":110.0,"angle":0,"side":"right","labels":[{"value":"GND","type":"Pin"}]},
+      {"x":505,"y":140.0,"angle":0,"side":"right","labels":[{"value":"BAT","type":"Pin"}]},
+      {"x":355,"y":255.0,"angle":270,"side":"right","labels":[{"value":"12","type":"Pin"},{"value":"PB4","type":"Pin"},{"value":"SPI1 MISO","type":"SPI"},{"value":"PWM","type":"PWM"}]},
+      {"x":385,"y":255.0,"angle":270,"side":"right","labels":[{"value":"13","type":"Pin"},{"value":"PB5","type":"Pin"},{"value":"SPI1 SCK","type":"SPI"},{"value":"PWM","type":"PWM"}]},
+      {"x":415,"y":255.0,"angle":270,"side":"right","labels":[{"value":"9","type":"Pin"},{"value":"PB1","type":"Pin"}]},
+      {"x":445,"y":255.0,"angle":270,"side":"right","labels":[{"value":"GND","type":"Pin"}]},
+      {"x":355,"y":285.0,"angle":90,"side":"right","labels":[{"value":"2","type":"Pin"},{"value":"PD2","type":"Pin"},{"value":"INT0","type":"INT"}]},
+      {"x":385,"y":285.0,"angle":90,"side":"right","labels":[{"value":"11","type":"Pin"},{"value":"PB3","type":"Pin"},{"value":"SPI1 MOSI","type":"SPI"},{"value":"PWM","type":"PWM"}]},
+      {"x":415,"y":285.0,"angle":90,"side":"right","labels":[{"value":"10","type":"Pin"},{"value":"PB2","type":"Pin"}]},
+      {"x":445,"y":285.0,"angle":90,"side":"right","labels":[{"value":"VDD","type":"Pin"}]}
+  ]
+
+
+
+
+}
